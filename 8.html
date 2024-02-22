@@ -5,18 +5,39 @@
     </head>
 
     <body>
-        <table border="2" width="100%">Basic Information</table><br>
-        <form>
-            Full name: <input type="text" name="full name"><br><br>
-            Birth date: <input type="date" name=date><br><br>
-            Gender: <label>
+        <div style="border: 1px solid black; padding:5px; margin-bottom: 20px;"> 
+            <font>Basic Information</font><br><br>
+            <form>
+                Full name: <input type="text" name="full name"><br><br>
+                Birth date: <input type="date" name=date><br><br>
+                Gender: <label>
                         <input type="radio" name="Gender" value="Male">Male
                     </label>
                     <label>
                         <input type="radio" name="Gender" value="Female">Female
                     </label><br><br>
             Address: <input type="text" name="adddress"><br><br>
-            Phone no: <input type="number" name="phone no"><br><br>
-        </form>    
+            Phone no: <input type="text" name="phone no"><br><br>
+        </form>
+        </div>
+        <div style="border:1px solid black; padding:5px; margin-bottom: 20px;">
+            <font>Extra Information</font><br><br>
+            <form>
+                
+                Interests: <label>
+                        <input type="checkbox" name="interest" value="books">Books
+                    </label>
+                    <label>
+                        <input type="checkbox" name="interest" value="movies">Movies
+                    </label>
+                    <label>
+                        <input type="checkbox" name="interest" value="videogames">Videogames
+                    </label><br><br>
+                Favourite color: <input type="color" name="color" value="favourite color"><br><br>
+
+            </form>
+        </div>
+        <button type="button" name="button" value="Send data">Send data</button>
+        <button type="button" name="button" value="Reset form">Reset form</button>
     </body>
 </html>
