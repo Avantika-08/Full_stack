@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Customer Profile</title>
+    </head>
+    <body>
+        <h1>Customer Profile</h1>
+        <div style="border:2px solid black; padding:10px; margin:5px;width:100%;"
+        <form>
+            Name: <input type="text" name="Name" id="Name" maxlength="10" placeholder="Enter your name"><br><br>
+            Address: <input type="'text" name="address" id="address" size="50"><br><br>
+            Age: <input type="number" name="age" id="age"><br><br>
+            Gender: <label>
+                <input type="radio" name="Gender" value="Male">Male
+            </label>
+            <label>
+                <input type="radio" name="Gender" value="Female">Female
+            </label><br><br>
+            Room Type: <br><br><select name="dropdown" size="2" multiple>
+                <option value="A/C">A/C</option>
+                <option value="Non-A/C">Non-A/C</option>
+                <option value="Deluxe">Deluxe</option>
+            </select><br><br> 
+            Payment type: <br><label>
+                    <input type="radio" name="payment" value="cash">Cash
+                </label><br>
+                <label>
+                    <input type="radio" name="payment" value="Credit/debit">Credit/Debit Card
+                </label> <br>
+                <label>
+                    <input type="radio" name="payment" value="Coupons">Coupons
+                </label><br><br><br>
+            <button type="submit">Submit</button>
+        </form>
+    </body>
+
+</html>
