@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Newspaper Layout</title>
+        <h1 style="color: solid black;">Once upon a Time</h1>
+    </head>
+    <style>
+        body{
+            font-family: 'Times New Roman', Times, serif;
+            margin:0;
+            padding:0;
+        }
+        .newspaper{
+            display:flex;
+            flex-wrap:wrap;
+            justify-content:space-between;
+        }
+        .article{
+            width:48%;
+            margin-bottom:20px;
+            margin-top: 20px;
+            background-color: rgb(224, 226, 226);
+            font-size: 18px;
+        }
+        .headline{
+            font-size: 1.5em;
+            font-weight:bold;
+            margin-bottom:10px;
+        }
+        .image{
+            width:50%;
+            height:auto;
+            margin-bottom:10px;
+            margin-left:10px;
+            align-items: center;
+        }
+    </style>
+    <body>
+        <div class="newspaper">
+            <article class="article">
+                <h2 class="headline">Kerala man killed in anti-tank missile attack in Israel, two others injured</h2>
+                <p>Hezbollah has been launching attacks on Israel's northern communities and military posts since October 8 saying it is doing so to support Gaza</p>
+                <img src="https://th-i.thgim.com/public/incoming/bh4pww/article67915708.ece/alternates/LANDSCAPE_615/Israel_Lebanon_Prepping_For_The_Worst_64534.jpg" class="image">
+                
+                <p>Hezbollah has been launching attacks on Israel's northern communities and military posts since October 8 saying it is doing so to support Gaza</p>
+            </article>
+            <article class="article">
+                <h2 class="headline">BackBack
+                    Weather update: IMD issues orange alert for snow, hailstorm in THESE states; yellow alert for heavy rain in Himachal</h2>
+                <img src="https://th.bing.com/th/id/R.04c7046c63d8bbfe414f7bcf89143b31?rik=2qxX9Fuff3g%2fhw&riu=http%3a%2f%2f4.bp.blogspot.com%2f-pN4OHFOau9I%2fUK9SuN37liI%2fAAAAAAAAKlI%2fJFTIHdNvK3c%2fs1600%2fsnow%2bfalling%2b%2b(4).jpg&ehk=VWfkxgCo%2fC8dw7I4qnFWijLMuAKbjC2rLkoDojRM81Q%3d&risl=&pid=ImgRaw&r=0" class="image">
+                <p>The India Meteorological Department (IMD) has predicted an intense spell of rainfall/snowfall over the Western Himalayan Region and rainfall over plains of northwest India till 3rd March.</p>
+            </article>
+        </div>
+        
+    </body>
+</html>
