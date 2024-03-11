@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Transition Effect Demo</title>
+   <style>
+      body {
+         font-family: 'Arial', sans-serif;
+         margin: 0;
+         padding: 0;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         height: 100vh;
+         background-color: white;
+      }
+
+      .transition-box {
+         width: 200px;
+         height: 200px;
+         background-color: blue;
+         color: white;
+         text-align: center;
+         line-height: 200px;
+         cursor: pointer;
+         transition: all 0.3s ease; /* Apply transition to all properties over 0.3 seconds with ease timing function */
+      }
+
+      .transition-box:hover {
+         background-color: red;
+         color: white;
+         transform: scale(1.1); /* Scale the box on hover */
+      }
+   </style>
+</head>
+
+<body>
+   <div class="transition-box">
+      Hover Me
+   </div>
+</body>
+
+</html>
