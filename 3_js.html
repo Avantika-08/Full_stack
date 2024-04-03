@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Greetings of the day</title>
+        <script src="3.js"></script>
+    </head>
+
+    <body>
+        <script>
+            var welcome;
+            var date=new Date();
+            var hour=date.getHours();
+            var minutes=date.getMinutes();
+            var seconds=date.getSeconds();
+            if(minutes<10)
+            {
+                minutes="0"+minutes;
+            }
+            if(seconds<10)
+            {
+                seconds="0"+seconds;
+            }
+            if(hour<12)
+            {
+                welcome="Good Morning";
+            }
+            else if(hour<17)
+            {
+                welcome="Good Afternoon";
+            }
+            else{
+                welcome="Good Evening";
+            }
+
+            document.write("<h2>"+welcome+" Welcome to my website!</h2>");
+            document.write("<br><br>"+hour+" : "+minutes+" : "+seconds);
+        </script>
+    </body>
+</html>
